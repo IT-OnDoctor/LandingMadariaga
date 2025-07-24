@@ -13,8 +13,9 @@ body {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #fff;
+  line-height: 1.8;
 }
 
 .main-header {
@@ -147,6 +148,7 @@ body {
   text-decoration: none;
   font-size: 30px;
   transition: 0.3s;
+  box-shadow: 0 8px 20px grey;
 }
 
 #login:hover {
