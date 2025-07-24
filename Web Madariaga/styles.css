@@ -133,8 +133,9 @@ body {
 }
 
 .login-button {
-  padding: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
 #login {
@@ -193,6 +194,11 @@ body {
   .about-container {
     flex-direction: column;
     gap: 24px;
+  }
+  
+  .login-button a {
+    font-size: 16px;
+    padding: 14px 20px;
   }
 }
 
