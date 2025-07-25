@@ -49,6 +49,10 @@ body {
   width: auto;
 }
 
+.mockup-movil{
+  height: 300px;
+}
+
 .main-footer {
   background-color: #2f4c9c;
   color: white;
@@ -113,11 +117,25 @@ body {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;      
+  gap: 30px;        
+  margin-bottom: 30px;
+}
+
+.image-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .about-block {
-  flex: 1 1 45%;
-  min-width: 280px;
+  flex: 1;
+  min-width: 300px;
 }
 
 .about-block h2 {
