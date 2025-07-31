@@ -180,6 +180,10 @@ body {
   background-color: #29aab5;
 }
 
+.promo-text{
+  color: #2f4c9c;
+}
+
 @media (max-width: 768px) {
   .main-header {
     flex-direction: column;
